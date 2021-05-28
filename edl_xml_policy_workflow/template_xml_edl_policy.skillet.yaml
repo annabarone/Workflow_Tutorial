@@ -31,12 +31,10 @@ variables:
     description: NGFW IP or Hostname
     default: 192.168.55.10
     type_hint: hidden
-
   - name: edl_name
     description: name of the external list
     default: my_edl
     type_hint: hidden
-
   - name: tag_name
     description: tag name
     default: tag name

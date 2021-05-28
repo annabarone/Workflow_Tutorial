@@ -30,20 +30,13 @@ variables:
     description: NGFW IP or Hostname
     default: 192.168.55.10
     type_hint: hidden
-
   - name: TARGET_USERNAME
     description: NGFW Username
     default: admin
     type_hint: hidden
-
   - name: TARGET_PASSWORD
     description: NGFW Password
     default: admin
-    type_hint: hidden
-
-  - name: edl_url
-    description: external list url
-    default: http://someurl.com
     type_hint: hidden
 
   - name: edl_name
@@ -54,7 +47,10 @@ variables:
     description: description of the external list
     default: this is an ip block list
     type_hint: text
-
+  - name: edl_url
+    description: external list url
+    default: http://someurl.com
+    type_hint: text
   - name: tag_name
     description: tag name
     default: tag name

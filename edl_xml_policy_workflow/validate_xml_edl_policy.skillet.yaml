@@ -32,12 +32,10 @@ variables:
     description: NGFW IP or Hostname
     default: 192.168.55.10
     type_hint: hidden
-
   - name: TARGET_USERNAME
     description: NGFW Username
     default: admin
     type_hint: hidden
-
   - name: TARGET_PASSWORD
     description: NGFW Password
     default: admin
